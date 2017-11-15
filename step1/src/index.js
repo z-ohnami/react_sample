@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import Clock from './Clock';
 import Toggle from './Toggle';
+import NameForm from './NameForm';
+import EssayForm from './EssayForm';
+import ReservationForm from './ReservationForm';
+import Calculator from './Calculator';
 import registerServiceWorker from './registerServiceWorker';
 
 // function formatName(user) {
@@ -38,7 +42,11 @@ import registerServiceWorker from './registerServiceWorker';
 
 // ReactDOM.render(element, document.getElementById('root'));
 
-ReactDOM.render(<Toggle />, document.getElementById('root'));
+ReactDOM.render(<Calculator />, document.getElementById('root'));
+// ReactDOM.render(<ReservationForm />, document.getElementById('root'));
+// ReactDOM.render(<EssayForm />, document.getElementById('root'));
+// ReactDOM.render(<NameForm />, document.getElementById('root'));
+// ReactDOM.render(<Toggle />, document.getElementById('root'));
 // ReactDOM.render(<Clock />, document.getElementById('root'));
 // ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
